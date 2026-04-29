@@ -34,7 +34,7 @@ Uses only the 5 categorical features in the dataset (gender, race/ethinicty, par
 ### Approach 2 - Ridge Regression · Demographics → Average Score
 **Question:** Would regularisation improve on Approach 1?
 
-Identical feature set and targets as Approach 1, but uses a pipeline of Ridge Regression + StandardScaler to test whether L2 regularisation adds value on low-dimensional binary features.
+Identical feature set and targets as Approach 1, but uses Ridge Regression to test whether L2 regularisation adds value on low-dimensional binary features.
 
 | Metric | Value |
 |--------|-------|
